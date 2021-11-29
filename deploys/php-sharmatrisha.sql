@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 29, 2021 at 06:17 AM
+-- Generation Time: Nov 29, 2021 at 06:36 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.25
 
@@ -30,8 +30,6 @@ SET time_zone = "+00:00";
 CREATE TABLE `subscribers` (
   `id` int(11) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `fname` varchar(20) NOT NULL,
-  `lname` varchar(20) NOT NULL,
   `is_activated` tinyint(1) NOT NULL DEFAULT 0,
   `OTP` text DEFAULT NULL,
   `email_hash` varchar(100) NOT NULL,
