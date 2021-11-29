@@ -9,3 +9,4 @@
 # Deployment guide
 * For DB structure import  ```php-SharmaTrisha.sql``` 
 * Create form for accepting email.
+* Validating mail using ```OTP```
