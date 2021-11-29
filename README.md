@@ -2,7 +2,6 @@
 
 # Made with
 * HTML
-* JavaScript
 * PHP
 * CSS
 * MySQL
