@@ -1,5 +1,5 @@
 <?php
-
+require_once './functions.php';
 require_once '../navigation/db.php';
 $data  = file_get_contents( 'php://input' );
 $data  = json_decode( $data, true );
