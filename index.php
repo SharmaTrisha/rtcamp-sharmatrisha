@@ -9,8 +9,10 @@ require_once __DIR__ . '\navigation\navbar.php';
 		<br />
 		<!--- Take email as input -->
 		<span class="label">Email:</span><br />
+		<input type="text" name="fname" id="fname" placeholder="Enter your first name">
+		<input type="text" name="lname" id="lname" placeholder="Enter your last name">
 		<input type="email" name="email" id="email" placeholder="Enter your email">
-
+		
 		<!--- Verify Email Button -->
 		<button class="submit-btn" id="email-submit-btn" type="submit" name="verify">
 			<span id="email-text">Verify Email</span>
