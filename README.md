@@ -6,4 +6,5 @@
 * CSS
 * MySQL
 
-# Details
+# Deployment guide
+* For DB structure import  ```php-SharmaTrisha.sql``` 
