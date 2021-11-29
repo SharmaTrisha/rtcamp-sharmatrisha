@@ -1,6 +1,6 @@
 <?php
 $page_title = "Welcome to Ping XKCD, Let's Get Started";
-require_once __DIR__ . '\includes\navbar.php';
+require_once __DIR__ . '\navigation\navbar.php';
 ?>
 <div class="main-div center-div">
 	<div id="email-input">
@@ -44,5 +44,5 @@ require_once __DIR__ . '\includes\navbar.php';
 	<h4 id="alert-msg"></h4>
 </div>
 <?php
-//require_once __DIR__ . '\includes\footer.php';
+require_once __DIR__ . '\navigation\footer.php';
 ?>
