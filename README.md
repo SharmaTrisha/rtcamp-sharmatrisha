@@ -6,3 +6,5 @@
 * PHP
 * CSS
 * MySQL
+
+# Details
