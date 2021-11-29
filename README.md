@@ -10,4 +10,4 @@
 * For DB structure import  ```php-SharmaTrisha.sql``` 
 * Create form for accepting email.
 * Validating email using ```OTP```
-cron
+* cron
