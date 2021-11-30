@@ -1,5 +1,5 @@
 {
-    "name": "SharmaTrisha/rtcamp-sharmatrisha",
+    "name": "rtlearn/php-sharmatrisha",
     "require": {
         "wp-coding-standards/wpcs": "^2.3",
         "squizlabs/php_codesniffer": "^3.6"
