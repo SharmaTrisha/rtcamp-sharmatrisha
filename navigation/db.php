@@ -1,7 +1,7 @@
 <?php
 
 $host = getenv( 'HTTP_DB_HOST' );
-$user = getenv( 'root@localhost' );
+$user = getenv( 'HTTP_DB_USER' );
 $db   = getenv( 'HTTP_DB_NAME' );
 
 if (getenv( 'HTTP_DB_PASSWORD' )) {
@@ -9,7 +9,7 @@ if (getenv( 'HTTP_DB_PASSWORD' )) {
 } else {
 	$pwd = '';
 }
-$con = new mysqli( "localhost", "root", $pwd, "php-sharmatrisha" );
+$con = new mysqli( $host, $user, $pwd, $db );
 if ($con->connect_errno) {
 	die( 'Connection failed: ' . $con->connect_error );
 }
