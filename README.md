@@ -11,3 +11,4 @@
 * Create form for accepting email.
 * Validating email using ```OTP```
 * Scheduling mail for every 5 minutes.
+* ```Unsubscription``` is also possible.
